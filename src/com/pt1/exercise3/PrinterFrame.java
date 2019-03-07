@@ -1,8 +1,5 @@
 package com.pt1.exercise3;
 
-import com.pt1.exercise1.AlignFrame;
-import com.pt1.exercise1.AlignPanel;
-
 import javax.swing.*;
 
 public class PrinterFrame extends JFrame {
