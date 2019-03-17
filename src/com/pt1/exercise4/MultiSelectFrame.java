@@ -4,12 +4,12 @@ import javax.swing.*;
 
 public class MultiSelectFrame extends JFrame {
 
-    private MultiSelectPanel MainPanel;
+    private MultiSelectPanel mainPanel;
 
     public MultiSelectFrame(String title) {
         super(title);
-        MainPanel = new MultiSelectPanel();
-        add(MainPanel);
+        mainPanel = new MultiSelectPanel();
+        add(mainPanel);
         this.setSize(400, 180);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
