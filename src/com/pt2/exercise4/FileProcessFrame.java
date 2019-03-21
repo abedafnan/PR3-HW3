@@ -1,8 +1,13 @@
 package com.pt2.exercise4;
 
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
 
-public class FileProcessFrame extends JFrame {
+public class FileProcessFrame extends JFrame implements ActionListener {
 
     private FileProcessPanel mainPanel;
 
@@ -30,25 +35,25 @@ public class FileProcessFrame extends JFrame {
         // Setup File menu
         JMenuItem openItem = new JMenuItem("Open", 'O');
         fileMenu.add(openItem);
-//        openItem.addActionListener(this);
+        openItem.addActionListener(this);
         openItem.setActionCommand("open");
         JMenuItem closeItem = new JMenuItem("Close", 'C');
         fileMenu.add(closeItem);
-//        closeItem.addActionListener(this);
+        closeItem.addActionListener(this);
         closeItem.setActionCommand("close");
         JMenuItem ExitItem = new JMenuItem("Exit", 'x');
         fileMenu.add(ExitItem);
-//        ExitItem.addActionListener(this);
+        ExitItem.addActionListener(this);
         ExitItem.setActionCommand("exit");
 
         // Setup Edit menu
         JMenuItem fontItem = new JMenuItem("Font", 'F');
         editMenu.add(fontItem);
-//        colorBlack.addActionListener(this);
+        fontItem.addActionListener(this);
         fontItem.setActionCommand("font");
         JMenuItem colorItem = new JMenuItem("Color", 'l');
         editMenu.add(colorItem);
-//        colorBlue.addActionListener(this);
+        colorItem.addActionListener(this);
         colorItem.setActionCommand("color");
 
         // Add menus to the MenuBar
@@ -57,5 +62,55 @@ public class FileProcessFrame extends JFrame {
 
         // Add the MenuBar to the frame
         this.setJMenuBar(bar);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        String actionCmd = e.getActionCommand();
+        switch (actionCmd) {
+            case "open":
+                openFile();
+                break;
+            case "close":
+                clearText();
+                break;
+            case "exit":
+                System.exit(0);
+                break;
+            case "font":
+                openFontDialog();
+                break;
+            case "color":
+                openColorPicker();
+
+        }
+    }
+
+    private void openFile() {
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setCurrentDirectory(new File(System.getProperty("user.home")));
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("Text Document", "txt");
+        fileChooser.setFileFilter(filter);
+        int result = fileChooser.showOpenDialog(getParent());
+
+        if (result == JFileChooser.APPROVE_OPTION) {
+            File selectedFile = fileChooser.getSelectedFile();
+        }
+    }
+
+    private void clearText() {
+        mainPanel.area.setText("");
+        mainPanel.area.setEditable(false);
+    }
+
+    private void openFontDialog() {
+        Object s = JOptionPane.showInputDialog(null, null, "Change font size",
+                JOptionPane.INFORMATION_MESSAGE, null, new String[]{"Yellow", "Blue", "Red"},
+                "Blue");
+    }
+
+    private void openColorPicker() {
+        Color fontColor = JColorChooser.showDialog(getParent(), "Choose Color", Color.black);
+        mainPanel.area.setForeground(fontColor);
     }
 }

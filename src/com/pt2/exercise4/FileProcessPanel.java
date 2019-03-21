@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class FileProcessPanel extends JPanel {
-    private JTextArea area;
+    public JTextArea area;
     private JScrollPane scrollPane;
 
     public FileProcessPanel() {
@@ -12,7 +12,8 @@ public class FileProcessPanel extends JPanel {
 
         // Create the TextArea
         area = new JTextArea();
-        area.setText("Placeholder Text");
+        area.setText("Open a text file..");
+        area.setEditable(false);
         area.setLineWrap(true);
 
         // Create the ScrollPane
