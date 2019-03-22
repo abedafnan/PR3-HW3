@@ -2,6 +2,10 @@ package com.pt2.exercise2;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MultiSelectPanel extends JPanel {
 
@@ -11,8 +15,23 @@ public class MultiSelectPanel extends JPanel {
 
     public MultiSelectPanel() {
         this.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
-        copyButton = new JButton("Copy>>>");
         textArea = new JTextArea(7, 12);
+
+        copyButton = new JButton("Copy>>>");
+        copyButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                List<String> selectedItems = selectionList.getSelectedValuesList();
+                if (selectedItems.isEmpty()) {
+                    JOptionPane.showMessageDialog(null,
+                            "No Items Selected!", "Warning", JOptionPane.WARNING_MESSAGE);
+                } else {
+                    for (String s: selectedItems) {
+                        textArea.append(s + "\n");
+                    }
+                }
+            }
+        });
 
         String[] colorsList = {"Black", "Blue", "Cyan", "Dark Gray", "Gray", "Red", "Green", "Blue"};
         selectionList = new JList<>(colorsList);

@@ -5,7 +5,10 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class FileProcessFrame extends JFrame implements ActionListener {
 
@@ -94,7 +97,14 @@ public class FileProcessFrame extends JFrame implements ActionListener {
         int result = fileChooser.showOpenDialog(getParent());
 
         if (result == JFileChooser.APPROVE_OPTION) {
-            File selectedFile = fileChooser.getSelectedFile();
+            try {
+                File selectedFile = fileChooser.getSelectedFile();
+                FileReader fileReader = new FileReader(selectedFile);
+                BufferedReader reader = new BufferedReader(fileReader);
+                mainPanel.area.read(reader, "Opening a text file");
+            } catch (IOException ioexception) {
+                mainPanel.area.setText("File Not Found!");
+            }
         }
     }
 
@@ -104,9 +114,13 @@ public class FileProcessFrame extends JFrame implements ActionListener {
     }
 
     private void openFontDialog() {
-        Object s = JOptionPane.showInputDialog(null, null, "Change font size",
-                JOptionPane.INFORMATION_MESSAGE, null, new String[]{"Yellow", "Blue", "Red"},
-                "Blue");
+        String[] fontSizes = {"10", "15", "20", "25", "30"};
+        JComboBox<String> fontSizesCombo = new JComboBox<>(fontSizes);
+        JOptionPane.showMessageDialog(null,
+                fontSizesCombo, "Choose Font Size", JOptionPane.QUESTION_MESSAGE);
+        int selectedSize = Integer.parseInt((String)fontSizesCombo.getSelectedItem());
+
+        mainPanel.area.setFont(new Font("Sans Serif", Font.PLAIN, selectedSize));
     }
 
     private void openColorPicker() {
