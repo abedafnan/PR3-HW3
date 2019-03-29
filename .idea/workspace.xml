@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcab4262-b71c-4403-852b-008aaed378be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise1/multi_select_fx.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise1/MultiSelectFx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise1/MultiSelectFx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +22,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectFrame.java">
+        <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="10" selection-start-column="43" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="64">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java">
+        <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="153">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -42,6 +70,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -76,8 +105,16 @@
         <option value="$PROJECT_DIR$/src/com/pt2/exercise3/GuessGamePanel.java" />
         <option value="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessPanel.java" />
         <option value="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java" />
+        <option value="G:/Courses/smCourse/MercyCorpsCourse/ServicesExample/app/src/main/java/com/app/servicesexample/MyService.java" />
+        <option value="G:/Courses/smCourse/MercyCorpsCourse/ServicesExample/app/src/main/java/com/app/servicesexample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise2/multi_select_fx.fxml" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise1/multi_select_fx.fxml" />
         <option value="$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java" />
         <option value="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectController.java" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" />
       </list>
     </option>
   </component>
@@ -123,22 +160,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="pt2" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PR3-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PR3-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pt3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PR3-HW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PR3-HW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pt3" type="462c0819:PsiDirectoryNode" />
               <item name="exercise2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PR3-HW3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PR3-HW3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pt3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PR3-HW3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PR3-HW3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pt3" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,7 +186,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553784196259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553880487589" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -158,6 +195,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\4th semester\Programming 3\homeworks\PR3-HW3\src\com\pt3\exercise2" />
       <recent name="F:\4th semester\Programming 3\homeworks\PR3-HW3\src\com\pt2\exercise2" />
       <recent name="F:\4th semester\Programming 3\homeworks\PR3-HW3\src\com\pt2" />
     </key>
@@ -174,13 +212,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiSelectFx">
+  <component name="RunManager" selected="Application.FileViewFx">
     <configuration name="FileProcessFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pt2.exercise4.FileProcessFrame" />
       <module name="PR3-HW3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pt2.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileViewFx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pt3.exercise2.FileViewFx" />
+      <module name="PR3-HW3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pt3.exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,26 +278,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TempConvertFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pt2.exercise1.TempConvertFrame" />
-      <module name="PR3-HW3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pt2.exercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileViewFx" />
         <item itemvalue="Application.MultiSelectFx" />
+        <item itemvalue="Application.MultiSelectFrame (1)" />
         <item itemvalue="Application.GuessGameFrame" />
         <item itemvalue="Application.FileProcessFrame" />
-        <item itemvalue="Application.MultiSelectFrame (1)" />
-        <item itemvalue="Application.TempConvertFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -265,8 +303,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1603631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2405892" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2749591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,6 +354,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -447,16 +500,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://G:/Courses/smCourse/MercyCorpsCourse/ServicesExample/app/src/main/java/com/app/servicesexample/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Courses/smCourse/MercyCorpsCourse/ServicesExample/app/src/main/java/com/app/servicesexample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.graphics/javafx/scene/Parent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="702" column="32" selection-start-line="702" selection-start-column="32" selection-end-line="702" selection-end-column="32" />
+          <folding>
+            <element signature="e#28575#28576#0" expanded="true" />
+            <element signature="e#28618#28619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise1/multi_select_fx.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="19" column="97" lean-forward="true" selection-start-line="19" selection-start-column="97" selection-end-line="19" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="225">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -466,26 +576,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        <state relative-caret-position="174">
+          <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="10" selection-start-column="43" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="64">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>

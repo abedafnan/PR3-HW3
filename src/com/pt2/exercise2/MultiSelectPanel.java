@@ -26,6 +26,7 @@ public class MultiSelectPanel extends JPanel {
                     JOptionPane.showMessageDialog(null,
                             "No Items Selected!", "Warning", JOptionPane.WARNING_MESSAGE);
                 } else {
+                    textArea.setText("");
                     for (String s: selectedItems) {
                         textArea.append(s + "\n");
                     }

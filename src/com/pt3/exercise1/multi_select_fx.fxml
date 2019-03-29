@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane id="main_layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pt3.exercise1.MultiSelectController">
+   <children>
+      <ListView fx:id="colorsList" prefHeight="150.0" prefWidth="120.0" />
+      <Button mnemonicParsing="false" onAction="#copy" text="Copy&gt;&gt;&gt;">
+         <FlowPane.margin>
+            <Insets left="5.0" right="5.0" />
+         </FlowPane.margin>
+      </Button>
+      <TextArea fx:id="copiedItemsList" prefHeight="150.0" prefWidth="120.0" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+   </padding>
+</FlowPane>
