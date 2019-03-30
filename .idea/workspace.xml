@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcab4262-b71c-4403-852b-008aaed378be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise1/multi_select_fx.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise1/MultiSelectFx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise1/MultiSelectFx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt2/exercise4/FileProcessFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt2/exercise4/FileProcessFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise2/FileViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise2/FileViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise2/FileViewFx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PR3-HW3/com/pt3/exercise2/FileViewFx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="130">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -34,12 +33,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="274">
+              <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
               </folding>
@@ -50,17 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
+            <state relative-caret-position="119">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -103,8 +90,6 @@
         <option value="$PROJECT_DIR$/src/com/pt2/exercise1/TempConvertFrame.java" />
         <option value="$PROJECT_DIR$/src/com/pt2/exercise1/TempConvertPanel.java" />
         <option value="$PROJECT_DIR$/src/com/pt2/exercise3/GuessGamePanel.java" />
-        <option value="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java" />
         <option value="G:/Courses/smCourse/MercyCorpsCourse/ServicesExample/app/src/main/java/com/app/servicesexample/MyService.java" />
         <option value="G:/Courses/smCourse/MercyCorpsCourse/ServicesExample/app/src/main/java/com/app/servicesexample/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/pt3/exercise2/multi_select_fx.fxml" />
@@ -112,9 +97,11 @@
         <option value="$PROJECT_DIR$/src/com/pt2/exercise2/MultiSelectPanel.java" />
         <option value="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java" />
         <option value="$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectController.java" />
+        <option value="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" />
         <option value="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java" />
         <option value="$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java" />
-        <option value="$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml" />
       </list>
     </option>
   </component>
@@ -159,8 +146,7 @@
               <item name="PR3-HW3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pt2" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise4" type="462c0819:PsiDirectoryNode" />
+              <item name="pt3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PR3-HW3" type="b2602c69:ProjectViewProjectNode" />
@@ -168,6 +154,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="pt3" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PR3-HW3" type="b2602c69:ProjectViewProjectNode" />
@@ -186,7 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553880487589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553974090559" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -281,10 +268,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileViewFx" />
+        <item itemvalue="Application.FileProcessFrame" />
         <item itemvalue="Application.MultiSelectFx" />
         <item itemvalue="Application.MultiSelectFrame (1)" />
         <item itemvalue="Application.GuessGameFrame" />
-        <item itemvalue="Application.FileProcessFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +292,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,12 +301,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2749591" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16693944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47954175" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27659574" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -556,9 +543,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise1/MultiSelectFx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="79" />
           <folding>
+            <element signature="e#1262#1263#0" expanded="true" />
             <element signature="e#1290#1291#0" expanded="true" />
           </folding>
         </state>
@@ -566,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -576,34 +564,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt2/exercise4/FileProcessFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="117" column="68" selection-start-line="117" selection-start-column="68" selection-end-line="117" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="123">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/file_view_fx.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="130">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewFx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pt3/exercise2/FileViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="274">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
           </folding>

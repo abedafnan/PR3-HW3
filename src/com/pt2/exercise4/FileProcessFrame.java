@@ -95,6 +95,7 @@ public class FileProcessFrame extends JFrame implements ActionListener {
         FileNameExtensionFilter filter = new FileNameExtensionFilter("Text Document", "txt");
         fileChooser.setFileFilter(filter);
         int result = fileChooser.showOpenDialog(getParent());
+        mainPanel.area.setEditable(true);
 
         if (result == JFileChooser.APPROVE_OPTION) {
             try {
