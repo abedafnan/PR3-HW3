@@ -20,12 +20,6 @@ public class FileViewFx extends Application {
         Parent layout = loader.load();
         primaryStage.setTitle("File View");
 
-        MenuBar menuBar = (MenuBar)  layout.getChildrenUnmodifiable().get(0);
-        MenuItem openItem = menuBar.getMenus().get(0).getItems().get(0);
-        openItem.setText("_Open");
-        openItem.setMnemonicParsing(true);
-//        openItem.setAccelerator(new KeyCodeCombination(KeyCode.O, KeyCombination.CONTROL_DOWN));
-
         TextArea area = (TextArea) layout.getChildrenUnmodifiable().get(1);
         area.setEditable(false);
         area.setWrapText(true);

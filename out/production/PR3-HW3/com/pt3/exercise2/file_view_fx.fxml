@@ -12,14 +12,14 @@
    <children>
       <MenuBar prefWidth="330.0">
         <menus>
-          <Menu text="File">
+          <Menu text="_File">
             <items>
                 <MenuItem text="_Open" onAction="#open" />
                 <MenuItem text="_Close" onAction="#close" />
                 <MenuItem text="E_xit" onAction="#exit" />
             </items>
           </Menu>
-          <Menu text="Edit">
+          <Menu text="_Edit">
             <items>
                 <MenuItem text="_Font" onAction="#chooseFont"/>
                 <MenuItem text="Co_lor" onAction="#chooseColor" />

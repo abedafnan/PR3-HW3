@@ -1,6 +1,7 @@
 package com.pt3.exercise2;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.ChoiceDialog;
 import javafx.scene.control.TextArea;
 import javafx.scene.paint.Color;
@@ -12,6 +13,7 @@ import javafx.stage.Stage;
 import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class FileViewController {
@@ -61,29 +63,35 @@ public class FileViewController {
     }
 
     public void chooseColor() {
-        String [] colorsList = {"Red", "Green", "Blue", "Black"};
-        ChoiceDialog choiceDialog = new ChoiceDialog(colorsList[3], colorsList);
+        // Setup the choice dialog data
+        String[] colorsList = {"Red", "Green", "Blue", "Black"};
+        ChoiceDialog<String> choiceDialog = new ChoiceDialog(colorsList[3], colorsList);
         choiceDialog.setTitle("Color Selection");
         choiceDialog.setContentText("Available Colors");
         choiceDialog.setHeaderText("Select the color from list");
-        choiceDialog.show();
 
-        String selectedColor = (String) choiceDialog.getSelectedItem();
-        selectedColor = selectedColor.toLowerCase();
-        Text text = new Text(fileArea.getText());
-        switch (selectedColor) {
-            case "red":
-                text.setFill(Color.RED);
-                break;
-            case "Blue":
-                text.setFill(Color.BLUE);
-                break;
-            case "Green":
-                text.setFill(Color.GREEN);
-                break;
-            case "Black":
-                text.setFill(Color.BLACK);
-                break;
+        // Wait for button press to get selected data
+        Optional<String> result = choiceDialog.showAndWait();
+        if (result.isPresent()) {
+            // Get the selected color
+            String selectedColor = choiceDialog.getSelectedItem();
+            selectedColor = selectedColor.toLowerCase();
+
+            // Use the selected value to change the text color
+            switch (selectedColor) {
+                case "red":
+                    fileArea.setStyle("-fx-text-fill: #f00;");
+                    break;
+                case "blue":
+                    fileArea.setStyle("-fx-text-fill: #00f;");
+                    break;
+                case "green":
+                    fileArea.setStyle("-fx-text-fill: #0f0;");
+                    break;
+                case "black":
+                    fileArea.setStyle("-fx-text-fill: #000;");
+                    break;
+            }
         }
     }
 }
